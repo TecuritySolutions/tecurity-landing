@@ -1,15 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    rewrites: async () => {
-        return [
-        {
-            source: '/api/:path*',
-            destination: 'http://localhost:5000/:path*' 
-        },
-        ]
-  },
+    api: {
+        bodyParser: false,
+      },
+  }
   
-}
-
-
-module.exports = nextConfig
+  module.exports = nextConfig

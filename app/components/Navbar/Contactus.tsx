@@ -19,15 +19,39 @@ const Contactusform = () => {
     }
 
     const handleClick = () => {
-        alert(`Name: ${inputValues.input1}, Contact Number: ${inputValues.input4}, Email-address: ${inputValues.input2}, Message: ${inputValues.input3}`);
+        // alert(`Name: ${inputValues.input1}, Contact Number: ${inputValues.input4}, Email-address: ${inputValues.input2}, Message: ${inputValues.input3}`);
         setIsOpen(false);
     }
 
     // FORM SUBMIT
-    const handleSubmit = (event: any) => {
+    const handleSubmit = async (event: any) => {
         event.preventDefault();
-        // handle form submission
-    };
+        try {
+            console.log('inputValues', inputValues);
+            
+          const response = await fetch('/api/sendEmail', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+              name: inputValues.input1,
+              contactNumber: inputValues.input4,
+              email: inputValues.input2,
+              message: inputValues.input3,
+            }),
+          });
+          console.log('response', response);
+          
+          if (response.ok) {
+            alert('Email sent successfully');
+            setIsOpen(false);
+          }
+        } catch (error) {
+          console.error('Error sending email:', error);
+          alert('Error sending email');
+        }
+      };
 
     const isDisabled = Object.values(inputValues).some((value) => value === '');
 
