@@ -45,10 +45,10 @@ export async function POST(request: Request) {
   }
 }
 
-export const config = {
-  api: {
-    bodyParser: {
-      sizeLimit: '1mb',
-    },
-  },
-}
+// export const config = {
+//   api: {
+//     bodyParser: {
+//       sizeLimit: '1mb',
+//     },
+//   },
+// }
