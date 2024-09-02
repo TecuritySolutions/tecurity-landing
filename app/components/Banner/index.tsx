@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Banner = () => {
     return (
-        <div className='mx-auto max-w-7xl my-10 sm:py-10 px-6 lg:px-8'>
+        <div className='mx-auto max-w-7xl my-10 sm:py-5 px-6 lg:px-8'>
             <div className='grid grid-cols-1 lg:grid-cols-2 my-16'>
 
                 {/* COLUMN-1 */}
@@ -11,9 +11,9 @@ const Banner = () => {
                     {/* <div className='py-3 text-center lg:text-start'>
                         <button className='text-blue bg-lightblue hover:shadow-xl text-sm md:text-lg font-bold px-6 py-1 rounded-3xl tracking-wider hover:text-white hover:bg-black'>DESIGN AGENCY</button>
                     </div> */}
-                    <div className="py-3 text-center lg:text-start">
+                    <div className="text-center lg:text-start">
                         <h1 className='text-6xl lg:text-80xl font-bold text-darkpurple'>
-                        Technology <br />    meets <br /> security.
+                        The future of financial revolution<br /> Meet <br /> Tecurity AI.
                         </h1>
                     </div>
                     <div className='my-7 text-center lg:text-start'>
@@ -25,8 +25,8 @@ const Banner = () => {
 
                 {/* COLUMN-2 */}
 
-                <div className='lg:-m-24 lg:pt-20 hidden lg:block'>
-                    <Image src="/images/banner/banner.svg" alt="hero-image" width={800} height={642} />
+                <div className='lg:-m-20 lg:pt-3 hidden lg:block'>
+                    <Image src="/images/banner/bg.jpg" alt="hero-image" width={800} height={642} />
                 </div>
 
             </div>
