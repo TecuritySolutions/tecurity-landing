@@ -13,7 +13,7 @@ interface DataType {
 const ProductData: DataType[] = [
     {
         heading: "Meet Tecurity AI",
-        paragraph: 'Tecurity AI is an AI-based lending approval and NPA risk prediction algorithm for banks and NBFCs. Tecurity AI is a game-changer technology that will transform the fintech and Banking industry, with its accurate predictions it will solve the problems of efficiency of employees and long lending process and it also eliminates the factor of human bias resulting in low NPA turnout for banks and NBFCs eventually increasing their profits.',
+        paragraph: 'Tecurity AI applies advancements in Artificial intelligence derived from genomics and large data sets to provide lenders with a Non-linear, Dynamic model of credit risk prediction which radically outperforms traditional lending methods worldwide. With Tecurity AI banks and NBFCs can leverage our model to accurately calculate credit risk and NPA prediction within microseconds to increase their lending performance and reduce their Non Performing Assets value which eventually increases the profit of the organization without the hassle of building model or capital investment.',
         link: 'Learn more'
     },
     {
