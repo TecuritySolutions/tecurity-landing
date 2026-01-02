@@ -9,19 +9,19 @@ export const contactInfo = [
   {
     icon: ic_email,
     title: 'Email',
-    value: 'contact@tecurity.com',
-    link: 'mailto:contact@tecurity.com',
+    value: 'info@tecurity.tech',
+    link: 'mailto:info@tecurity.tech',
   },
   {
     icon: ic_phone,
     title: 'Phone',
-    value: '+1 (555) 123-4567',
-    link: 'tel:+15551234567',
+    value: '+91 7990455489',
+    link: 'tel:+917990455489',
   },
   {
     icon: ic_location,
     title: 'Address',
-    value: '123 Financial Street, New York, NY 10001',
-    link: 'https://maps.google.com/?q=123+Financial+Street+New+York+NY',
+    value: 'GF-001, Mauryansh Elanza, Shyamal Cross Rd, Ahmedabad, Gujarat 380015',
+    link: 'https://maps.app.goo.gl/uGCef6ETgYg5wAZ18',
   },
 ];

@@ -45,10 +45,10 @@ const Featured = () => {
             )}
           </Div>
         </ImageContainer>
-        <h2>Featured and Seen in</h2>
+        <h2>Supported by</h2>
         <ParallaxImages>
           <ParallaxText baseVelocity={-4}>
-            <Image src={companies_image} alt="comapanies" />
+            <Image height={100} src={companies_image} alt="comapanies" />
           </ParallaxText>
         </ParallaxImages>
       </Inner>

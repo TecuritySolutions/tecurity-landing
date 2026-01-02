@@ -9,11 +9,10 @@ import ic_copyright from '../../../../public/svgs/ic_copyright.svg';
 
 const linksArr = [
   {
-    title: 'About us',
+    title: 'Products',
     links: [
-      { label: 'Our Company', href: '#' },
-      { label: 'Careers', href: '#' },
-      { label: 'Press kits', href: '#' },
+      { label: 'Solutions', href: '/solutions' },
+      { label: 'Pricing', href: '#' },
     ],
   },
   {
@@ -25,7 +24,7 @@ const linksArr = [
     ],
   },
   {
-    title: 'About us',
+    title: 'Support',
     links: [
       { label: 'Contact us', href: '/contact' },
       { label: 'FAQ', href: '#' },
@@ -62,10 +61,10 @@ const Footer = () => {
           <FooterMiddle>
             <QRContainer>
               <QRImageCtn>
-                <Image src={qr_code} alt="qr_code" />
+                <Image width={100} height={100} src={qr_code} alt="qr_code" />
               </QRImageCtn>
               <TextCtn>
-                <p>Scan to download App on the Playstore and Appstore.</p>
+                <p>Mobile App Coming Soon.</p>
                 <IconCtn>
                   <Image src={ic_google_playstore} alt="playstore icon" />
                   <Image src={ic_baseline_apple} alt="apple icon" />
@@ -88,13 +87,13 @@ const Footer = () => {
             </FooterNavigation>
           </FooterMiddle>
           <FooterBottom>
-            <Translator>
+            {/* <Translator>
               <h3>English (United Kingdom)</h3>
               <Image src={ic_chevron_down} alt="chevron down" />
-            </Translator>
+            </Translator> */}
             <CopyRight>
               <Image src={ic_copyright} alt="copyright svg" />
-              Raft Corp, LLC.
+              Tecurity Solutions Pvt. Ltd.
             </CopyRight>
           </FooterBottom>
         </FooterMainContent>

@@ -16,3 +16,6 @@ export { default as ContactForm } from './Common/ContactForm';
 export { default as ContactInfoCards } from './Common/ContactInfoCards';
 export { default as FormInput } from './Common/FormInput';
 export { default as FormTextarea } from './Common/FormTextarea';
+export { default as SolutionsHero } from './UI/SolutionsHero';
+export { default as SolutionsGrid } from './UI/SolutionsGrid';
+export { default as HowItWorksSection } from './UI/HowItWorksSection';
