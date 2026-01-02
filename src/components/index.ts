@@ -11,3 +11,8 @@ export { default as FAQ } from './UI/FAQ';
 export { default as Footer } from './UI/Footer';
 export { default as Preloader } from './UI/Preloader';
 export { default as MaskText } from './Common/MaskText';
+export { default as ContactSection } from './UI/ContactSection';
+export { default as ContactForm } from './Common/ContactForm';
+export { default as ContactInfoCards } from './Common/ContactInfoCards';
+export { default as FormInput } from './Common/FormInput';
+export { default as FormTextarea } from './Common/FormTextarea';

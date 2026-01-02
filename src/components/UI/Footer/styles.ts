@@ -119,25 +119,31 @@ export const LinksContainer = styled.ul`
     font-size: 1rem;
     font-weight: 400;
     cursor: pointer;
-    position: relative;
+    display: inline-block;
 
-    &::after {
-      position: absolute;
-      content: '';
-      width: 100%;
-      height: 1px;
-      background-color: #efefef;
-      left: 0;
-      bottom: -5px;
-      transform: scaleX(0);
-      transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
-      transform-origin: center;
-    }
+    a {
+      color: #efefef;
+      text-decoration: none;
+      display: inline-block;
+      position: relative;
 
-    &:hover {
       &::after {
+        position: absolute;
+        content: '';
         width: 100%;
-        transform: scaleX(1);
+        height: 1px;
+        background-color: #efefef;
+        left: 0;
+        bottom: -5px;
+        transform: scaleX(0);
+        transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+        transform-origin: center;
+      }
+
+      &:hover {
+        &::after {
+          transform: scaleX(1);
+        }
       }
     }
   }

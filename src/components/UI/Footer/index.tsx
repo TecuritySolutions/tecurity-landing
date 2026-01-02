@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import raft_footer_logo from '../../../../public/svgs/raft_footer_logo.svg';
 import qr_code from '../../../../public/svgs/qr_code.svg';
 import ic_google_playstore from '../../../../public/svgs/ic_google_playstore.svg';
@@ -9,15 +10,26 @@ import ic_copyright from '../../../../public/svgs/ic_copyright.svg';
 const linksArr = [
   {
     title: 'About us',
-    links: ['Our Company', 'Careers', 'Press kits'],
+    links: [
+      { label: 'Our Company', href: '#' },
+      { label: 'Careers', href: '#' },
+      { label: 'Press kits', href: '#' },
+    ],
   },
   {
     title: 'Legal',
-    links: ['Terms of use', 'Privacy policy', 'About us'],
+    links: [
+      { label: 'Terms of use', href: '#' },
+      { label: 'Privacy policy', href: '#' },
+      { label: 'About us', href: '#' },
+    ],
   },
   {
     title: 'About us',
-    links: ['Contact us', 'FAQ'],
+    links: [
+      { label: 'Contact us', href: '/contact' },
+      { label: 'FAQ', href: '#' },
+    ],
   },
 ];
 
@@ -66,7 +78,9 @@ const Footer = () => {
                   <h3>{l.title}</h3>
                   <LinksContainer>
                     {l.links.map((link, i) => (
-                      <li key={i}>{link}</li>
+                      <li key={i}>
+                        <Link href={link.href}>{link.label}</Link>
+                      </li>
                     ))}
                   </LinksContainer>
                 </GridColumn>
