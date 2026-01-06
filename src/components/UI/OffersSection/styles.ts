@@ -52,6 +52,10 @@ export const ImageCtn = styled.div`
   margin: 3rem auto 0;
   position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 18rem;
+  overflow: hidden;
 
   &::after {
     position: absolute;
@@ -70,6 +74,7 @@ export const ImageCtn = styled.div`
 
   @media (max-width: 768px) {
     margin: 0.32rem auto 0;
+    max-height: 14rem;
 
     &::after {
       top: 30px;

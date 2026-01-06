@@ -1,5 +1,5 @@
-import seamless_payments from '../../../../public/images/seamless_payments.png';
-import smart_investing from '../../../../public/images/smart_investing.png';
+import seamless_payments_new from '../../../../public/images/seamless_payments.png';
+import smart_investing from '../../../../public/images/smart_investing_new.png';
 import wealth_management from '../../../../public/images/wealth_management.png';
 import financial_planning from '../../../../public/images/financial_planning.png';
 // For desktop
@@ -22,7 +22,7 @@ export const mobileParagraphPhrase = [
 
 export const offers = [
   {
-    illustration: seamless_payments,
+    illustration: seamless_payments_new,
     title: 'Predictive Credit Intelligence',
     details:
       'Predict retailer credit risk early using real-time AI insights, protect cash flow and enable smarter stock credit decisions.',
