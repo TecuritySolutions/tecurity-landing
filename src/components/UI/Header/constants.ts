@@ -22,7 +22,7 @@ export const menu = {
 };
 export const links = [
   {
-    url: '/',
+    url: '/solutions',
     linkTo: 'Solutions',
   },
   {
@@ -30,7 +30,7 @@ export const links = [
     linkTo: 'Learn',
   },
   {
-    url: '/',
+    url: '/about',
     linkTo: 'About',
   },
 ];

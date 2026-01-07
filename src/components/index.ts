@@ -19,3 +19,7 @@ export { default as FormTextarea } from './Common/FormTextarea';
 export { default as SolutionsHero } from './UI/SolutionsHero';
 export { default as SolutionsGrid } from './UI/SolutionsGrid';
 export { default as HowItWorksSection } from './UI/HowItWorksSection';
+export { default as AboutHero } from './UI/AboutHero';
+export { default as OurStory } from './UI/OurStory';
+export { default as TeamSection } from './UI/TeamSection';
+export { default as ValuesSection } from './UI/ValuesSection';

@@ -20,7 +20,7 @@ const linksArr = [
     links: [
       { label: 'Terms of use', href: '#' },
       { label: 'Privacy policy', href: '#' },
-      { label: 'About us', href: '#' },
+      { label: 'About us', href: '/about' },
     ],
   },
   {
