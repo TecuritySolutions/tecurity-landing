@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import ic_import from '../../../../public/svgs/ic_import.svg';
+import ic_import from '../../../../public/images/T.png';
 
 import { Wrapper, Inner, SecondOverlay } from './styles';
 import { Dispatch, SetStateAction, useEffect, useRef } from 'react';
@@ -25,17 +25,19 @@ const Preloader = ({
       ease: 'back.out(1.7)', // Easing function
       duration: 1.4,
     });
-    tl.to(imageRef.current, {
-      y: '-100%', // Move the spans up
-      ease: 'back.out(1.7)', // Easing function
-    });
     // Iterate through the span elements and animate them
     tl.to(spans.current, {
-      y: '-100%', // Move the spans up
+      y: '-150%', // Move the spans up further to ensure complete disappearance
       ease: 'back.out(1.7)', // Easing function
       duration: 1.4, // Animation duration
       stagger: 0.05, // Stagger duration (0.2 seconds delay between each span)
     });
+    // Animate the image at the same time as the last span animation
+    tl.to(imageRef.current, {
+      y: '-150%', // Move the image up with the text, further to ensure complete disappearance
+      ease: 'back.out(1.7)', // Easing function
+      duration: 1.4,
+    }, '<'); // '<' means start at the same time as previous animation
     // Animate both the wrapper and the second overlay almost at the same time
     tl.to([wrapperRef.current, secondOverlayRef.current], {
       scaleY: 0,
@@ -62,7 +64,7 @@ const Preloader = ({
     <>
       <Wrapper ref={wrapperRef}>
         <Inner>
-          <Image ref={imageRef} src={ic_import} alt="import icon" />
+          <Image width={35} height={35} ref={imageRef} src={ic_import} alt="import icon" />
           <div>
             {word.map((t, i) => (
               <div
