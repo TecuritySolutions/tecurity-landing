@@ -33,16 +33,4 @@ export const offers = [
     details:
       'Minimize non-performing assets with our AI-driven NPA prediction, enabling proactive risk management and improved financial health.',
   },
-  {
-    illustration: wealth_management,
-    title: 'Wealth Management',
-    details:
-      'Make informed decisions for your financial future with our wealth management expertise.',
-  },
-  {
-    illustration: financial_planning,
-    title: 'Financial Planning',
-    details:
-      'Achieve your financial dreams with our comprehensive financial planning services, guiding you toward a secure future.',
-  },
 ];
