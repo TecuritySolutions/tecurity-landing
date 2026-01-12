@@ -10,7 +10,7 @@ import {
   AbsoluteLinks,
   BurgerMenu,
 } from './styles';
-import tecurity_logo from '../../../../public/images/Tecurity.png';
+import tecurity_logo from '../../../../public/images/test-tecurity-3-removebg.png';
 import ic_bars from '../../../../public/svgs/ic_bars.svg';
 import { GetStartedButton } from '@/components';
 import AnimatedLink from '@/components/Common/AnimatedLink';
@@ -24,7 +24,7 @@ const Header = () => {
     <Wrapper>
       <Inner>
         <LogoContainer>
-          <Image src={tecurity_logo} alt="tecurity_logo" width={130} height={30} priority />
+          <Image src={tecurity_logo} alt="tecurity_logo" width={150}  priority />
           <BurgerMenu onClick={() => setIsOpen(!isOpen)}>
             <motion.div
               variants={menu}
