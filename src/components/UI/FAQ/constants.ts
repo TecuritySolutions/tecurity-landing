@@ -19,23 +19,28 @@ export const animate = {
 
 export const faqData: FAQItem[] = [
   {
-    question: 'How do I create an account with RAFT?',
+    question: 'What does Tecurity do?',
     answer:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+      'Tecurity is an AI-powered credit intelligence platform that helps banks, NBFCs, and FMCG brands predict credit risk early. We provide NPA prediction for lenders and real-time retailer credit scoring for FMCG distribution.',
   },
   {
-    question: 'How does RAFT ensure the security of my financial data?',
+    question: 'Who is Tecurity built for?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'Tecurity is designed for financial institutions (banks, NBFCs, fintech lenders) and FMCG brands or distributors that extend credit to retailers and want to reduce defaults and improve cash flow.',
   },
   {
-    question: 'What types of transactions can I perform with RAFT?',
+    question: 'How is Tecurity different from traditional credit scoring tools?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'Unlike static rule-based systems, Tecurity uses machine learning to analyze behavioral, transactional, sales, and market data in real time. Our models are predictive, explainable, and built for emerging market credit complexity.',
   },
   {
-    question: 'What benefits does RAFT offer for wealth management?',
+    question: 'Can Tecurity integrate with our existing systems?',
     answer:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
+      'Yes. Tecurity is built with an API-first architecture and integrates seamlessly with core banking systems, lending platforms, ERPs, and distributor workflows without disrupting existing operations.',
+  },
+  {
+    question: 'Is Tecurity secure and compliant?',
+    answer:
+      'Security and compliance are core to our platform. We follow enterprise-grade security practices, ensure data privacy, and provide explainable AI outputs suitable for regulated financial environments.',
   },
 ];

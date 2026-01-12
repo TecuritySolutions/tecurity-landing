@@ -12,25 +12,25 @@ export const values = [
   {
     title: 'Innovation',
     description:
-      'We push boundaries with cutting-edge AI technology to solve complex credit challenges.',
+      'We build for real-world credit problems, not theoretical use cases. From Retail Score to NPA AI, our innovation is driven by ground realities — transforming fragmented market signals and behavioral data into powerful intelligence that helps businesses predict risk before it becomes loss.',
     icon: ic_innovation,
   },
   {
     title: 'Integrity',
     description:
-      'We operate with transparency and ethics, building trust with every interaction.',
+      'Credit decisions impact livelihoods. That responsibility drives us to operate with transparency, fairness, and strong data ethics. We design our AI models to be explainable, reliable, and built on trust — ensuring every insight can be confidently acted upon.',
     icon: ic_integrity,
   },
   {
     title: 'Excellence',
     description:
-      'We deliver exceptional results through precision, quality, and continuous improvement.',
+      'We obsess over accuracy, performance, and impact. Whether it’s reducing retail defaults or predicting NPAs, we hold ourselves to the highest standards of quality. Continuous improvement is built into our culture, our models, and our products.',
     icon: ic_excellence,
   },
   {
     title: 'Collaboration',
     description:
-      'We partner closely with clients, understanding their needs and driving mutual success.',
+      'Tecurity is built alongside the ecosystem. We work closely with wholesalers, brands, and financial institutions to deeply understand their challenges and co-create solutions that truly work on the ground driving shared growth and long-term success.',
     icon: ic_collaboration,
   },
 ];

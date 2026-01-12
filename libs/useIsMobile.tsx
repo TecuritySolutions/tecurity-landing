@@ -6,7 +6,7 @@ const isClient = typeof window === 'object';
 
 export const useIsMobile = () => {
   const pathname = usePathname();
-  const [isMobile, setIsMobile] = useState(isClient && window.innerWidth <= 768);
+  const [isMobile, setIsMobile] = useState(false); // Safe default for SSR
 
   useEffect(() => {
     const handleResize = () => {
@@ -15,6 +15,9 @@ export const useIsMobile = () => {
     };
 
     if (isClient) {
+      // Set initial value on mount
+      handleResize();
+
       window.addEventListener('resize', handleResize);
 
       return () => {

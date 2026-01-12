@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import raft_footer_logo from '../../../../public/svgs/raft_footer_logo.svg';
+import tecurity from '../../../../public/images/Tecurity.png';
 import qr_code from '../../../../public/svgs/qr_code.svg';
 import ic_google_playstore from '../../../../public/svgs/ic_google_playstore.svg';
 import ic_baseline_apple from '../../../../public/svgs/ic_baseline_apple.svg';
@@ -54,9 +55,9 @@ const Footer = () => {
   return (
     <Wrapper>
       <Inner>
-        <FooterLogo>
-          <Image src={raft_footer_logo} alt="raft_footer_logo" />
-        </FooterLogo>
+        {/* <FooterLogo>
+          <Image src={tecurity} alt="tecurity" />
+        </FooterLogo> */}
         <FooterMainContent>
           <FooterMiddle>
             <QRContainer>

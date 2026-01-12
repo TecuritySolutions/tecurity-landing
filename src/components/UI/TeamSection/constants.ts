@@ -15,27 +15,27 @@ export const mobileSubPhrases = [
 
 export const teamMembers = [
   {
-    name: 'Sarah Johnson',
-    role: 'CEO & Founder',
-    bio: 'Former fintech executive with 15+ years in credit risk management',
+    name: 'Arj Shah',
+    role: 'Co-Founder & CMO',
+    bio: 'Business strategist driving growth, partnerships, and go-to-market execution across retail and financial ecosystems.',
     image: team_member_1,
   },
   {
-    name: 'Michael Chen',
-    role: 'CTO',
-    bio: 'AI/ML expert specializing in predictive analytics and risk modeling',
+    name: 'Mohit Thakkar',
+    role: 'Co-Founder & CTO (Engineering)',
+    bio: 'Technology leader with deep expertise in scalable systems, blockchain, and frontend architecture for high-performance platforms.',
     image: team_member_2,
   },
   {
-    name: 'Priya Sharma',
-    role: 'Head of Product',
-    bio: 'Product leader with deep expertise in financial technology solutions',
+    name: 'Nisarg Bhavsar',
+    role: 'Co-Founder & CTO (AI & Data)',
+    bio: 'AI expert specializing in predictive modeling, machine learning, and credit risk intelligence systems.',
     image: team_member_3,
   },
-  {
-    name: 'David Williams',
-    role: 'Chief Data Scientist',
-    bio: 'PhD in Machine Learning, pioneering credit intelligence algorithms',
-    image: team_member_4,
-  },
+  // {
+  //   name: 'David Williams',
+  //   role: 'Chief Data Scientist',
+  //   bio: 'PhD in Machine Learning, pioneering credit intelligence algorithms',
+  //   image: team_member_4,
+  // },
 ];

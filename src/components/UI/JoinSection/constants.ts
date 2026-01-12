@@ -12,33 +12,21 @@ export type Props = {
 export const testimonials = [
   {
     testimony:
-      "RAFT has transformed my approach to finance. Their smart investing options have helped me grow my wealth, and their user-friendly platform makes managing my money a breeze. I've never felt more confident about my financial future.",
-    person: 'Robert Fox',
+      "“Tecurity gave us early visibility into credit risk that we never had before.” The predictive insights helped us identify high-risk accounts early and take corrective action. The integration was smooth and the AI explanations were clear and actionable.",
+    person: 'Risk & Credit Head, NBFC',
     avatar: robert_fox,
   },
   {
     testimony:
-      "I can't express how grateful I am to RAFT. Their wealth management services have been a game-changer for my family's financial security. The expert guidance and personalized strategies have given us peace of mind, knowing that our future is in capable hands.",
-    person: 'Cameron Williamson',
+      "“A game-changer for managing trade credit in FMCG distribution.”Tecurity’s retailer credit scoring allowed us to extend stock credit more confidently while protecting our cash flow. It brought structure and intelligence to a very manual process.",
+    person: 'Distribution & Finance Lead, FMCG Brand',
     avatar: cameron_williamson,
   },
   {
     testimony:
-      "RAFT's financial planning services have been a lifeline for me. I always struggled with managing my money, but their team crafted a tailored plan that addressed my goals and concerns. It's been a game-changer in achieving my financial dreams",
-    person: 'Esther Howard',
+      "“Strong technology with a deep understanding of real-world credit challenges.” What stood out was the accuracy of the models and the explainable nature of the insights. Tecurity fits well into regulated environments and scales effortlessly.",
+    person: 'Chief Technology Officer, Fintech Platform',
     avatar: esther_howard,
-  },
-  {
-    testimony:
-      "I can't express how grateful I am to RAFT. Their wealth management services have been a game-changer for my family's financial security. The expert guidance and personalized strategies have given us peace of mind, knowing that our future is in capable hands.",
-    person: 'Cameron Williamson',
-    avatar: cameron_williamson,
-  },
-  {
-    testimony:
-      "RAFT has transformed my approach to finance. Their smart investing options have helped me grow my wealth, and their user-friendly platform makes managing my money a breeze. I've never felt more confident about my financial future.",
-    person: 'Robert Fox',
-    avatar: robert_fox,
   },
 ];
 
