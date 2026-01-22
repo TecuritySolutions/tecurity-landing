@@ -23,28 +23,28 @@ const Preloader = ({
     tl.to(imageRef.current, {
       rotate: '360deg',
       ease: 'back.out(1.7)', // Easing function
-      duration: 1.4,
+      duration: 2.5,
     });
     // Iterate through the span elements and animate them
     tl.to(spans.current, {
       y: '-150%', // Move the spans up further to ensure complete disappearance
       ease: 'back.out(1.7)', // Easing function
-      duration: 1.4, // Animation duration
-      stagger: 0.05, // Stagger duration (0.2 seconds delay between each span)
+      duration: 2, // Animation duration
+      stagger: 0.1, // Stagger duration
     });
     // Animate the image at the same time as the last span animation
     tl.to(imageRef.current, {
       y: '-150%', // Move the image up with the text, further to ensure complete disappearance
       ease: 'back.out(1.7)', // Easing function
-      duration: 1.4,
+      duration: 2,
     }, '<'); // '<' means start at the same time as previous animation
     // Animate both the wrapper and the second overlay almost at the same time
     tl.to([wrapperRef.current, secondOverlayRef.current], {
       scaleY: 0,
       transformOrigin: 'top',
       ease: 'back.out(1.7)',
-      duration: 1,
-      stagger: 0.2,
+      duration: 1.5,
+      stagger: 0.3,
       onComplete: () => {
         setComplete(true);
       },
@@ -55,8 +55,8 @@ const Preloader = ({
       scaleY: 0,
       transformOrigin: 'top',
       ease: [0.83, 0, 0.17, 1] as any,
-      duration: 1,
-      delay: -0.9, // Adjust this delay as needed to fine-tune the timing
+      duration: 1.5,
+      delay: -1.2, // Adjust this delay as needed to fine-tune the timing
     });
   }, [setComplete]);
 
