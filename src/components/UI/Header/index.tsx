@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import {
   Wrapper,
   Inner,
@@ -24,7 +25,9 @@ const Header = () => {
     <Wrapper>
       <Inner>
         <LogoContainer>
-          <Image src={tecurity_logo} alt="tecurity_logo" width={150}  priority />
+          <Link href="/">
+            <Image src={tecurity_logo} alt="tecurity_logo" width={150}  priority />
+          </Link>
           <BurgerMenu onClick={() => setIsOpen(!isOpen)}>
             <motion.div
               variants={menu}

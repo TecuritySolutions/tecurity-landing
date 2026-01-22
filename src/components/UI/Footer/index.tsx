@@ -13,7 +13,7 @@ const linksArr = [
     title: 'Products',
     links: [
       { label: 'Solutions', href: '/solutions' },
-      { label: 'Pricing', href: '#' },
+      // { label: 'Pricing', href: '#' },
     ],
   },
   {
@@ -28,7 +28,7 @@ const linksArr = [
     title: 'Support',
     links: [
       { label: 'Contact us', href: '/contact' },
-      { label: 'FAQ', href: '#' },
+      { label: 'FAQ', href: '/#faq' },
     ],
   },
 ];
