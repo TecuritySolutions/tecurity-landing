@@ -32,12 +32,21 @@ export const metadata: Metadata = {
     title: 'Tecurity - Building the Future of Credit',
     description:
       'Revolutionizing credit and lending with innovative fintech solutions. Access smart loans and digital financial services.',
+    images: [
+      {
+        url: '/images/Tecurity.png',
+        width: 1200,
+        height: 630,
+        alt: 'Tecurity - Building the Future of Credit',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Tecurity - Building the Future of Credit',
     description:
       'Revolutionizing credit and lending with innovative fintech solutions.',
+    images: ['/images/Tecurity.png'],
   },
   robots: {
     index: true,
