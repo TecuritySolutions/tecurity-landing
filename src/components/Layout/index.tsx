@@ -19,7 +19,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     }
   }, []);
 
-  const handlePreloaderComplete = (value: boolean) => {
+  const handlePreloaderComplete: React.Dispatch<React.SetStateAction<boolean>> = (value) => {
     setComplete(value);
     sessionStorage.setItem('preloaderShown', 'true');
   };
