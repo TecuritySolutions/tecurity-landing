@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import ic_import from '../../../../public/images/T.png';
+import ic_import from '../../../../public/images/TNew2.gif';
 
 import { Wrapper, Inner, SecondOverlay } from './styles';
 import { Dispatch, SetStateAction, useEffect, useRef } from 'react';
@@ -64,7 +64,7 @@ const Preloader = ({
     <>
       <Wrapper ref={wrapperRef}>
         <Inner>
-          <Image width={35} height={35} ref={imageRef} src={ic_import} alt="import icon" />
+          <Image width={200} height={200} ref={imageRef} src={ic_import} alt="import icon" />
           <div>
             {word.map((t, i) => (
               <div

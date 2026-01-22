@@ -25,10 +25,10 @@ export const links = [
     url: '/solutions',
     linkTo: 'Solutions',
   },
-  {
-    url: '/',
-    linkTo: 'Learn',
-  },
+  // {
+  //   url: '/',
+  //   linkTo: 'Learn',
+  // },
   {
     url: '/about',
     linkTo: 'About',

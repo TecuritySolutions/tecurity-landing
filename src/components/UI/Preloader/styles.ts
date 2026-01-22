@@ -26,8 +26,8 @@ export const Inner = styled.div`
   height: 20em;
 
   img {
-    width: 12em;
-    height: 12em;
+    width: 18em;
+    height: 18em;
   }
 
   div {
